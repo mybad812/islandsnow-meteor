@@ -1,5 +1,5 @@
 import React from 'react';
-import {Grid, List, Input, Lable} from 'semantic-ui-react';
+import {Grid, List} from 'semantic-ui-react';
 
 export default class FooterMenu extends React.Component {
   render() {

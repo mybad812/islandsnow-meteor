@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Menu, Icon, Dropdown } from 'semantic-ui-react';
+import { Container, Menu, Dropdown } from 'semantic-ui-react';
 
 export default class TopMenu extends React.Component {
   render() {
@@ -8,7 +8,7 @@ export default class TopMenu extends React.Component {
           <Container>
             <Menu.Item fitted><Icon name="facebook f"/></Menu.Item>
             <Menu.Item fitted><Icon name="twitter"/></Menu.Item>
-            <Menu.Item fitted><Icon name="pinterest"/></Menu.Item>
+            <Menu.Item fitted><Icon name="print"/></Menu.Item>
             <Menu.Item fitted><Icon name="instagram"/></Menu.Item>
             <Menu.Item fitted position="right"><Icon name="home"/></Menu.Item>
             <Menu.Item fitted><Icon name="search"/></Menu.Item>
