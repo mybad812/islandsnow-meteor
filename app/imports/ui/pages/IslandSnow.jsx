@@ -1,7 +1,7 @@
 import React from 'react';
 import IslandSnowLogo from '../components/IslandSnowLogo';
 import MiddleMenu from '../components/MiddleMenu';
-import FullWidthImage from '../components/FullWidthImage';
+import FullWidthimage from '../components/FullWidthimage';
 
 export default class IslandSnow extends React.Component {
 
@@ -10,7 +10,7 @@ export default class IslandSnow extends React.Component {
         <div>
           <IslandSnowLogo/>
           <MiddleMenu/>
-          <FullWidthImage/>
+          <FullWidthimage/>
         </div>
     );
   }

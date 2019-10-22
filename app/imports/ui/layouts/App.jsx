@@ -4,6 +4,7 @@ import { Meteor } from 'meteor/meteor';
 import 'semantic-ui-css/semantic.css';
 import { Roles } from 'meteor/alanning:roles';
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import FullWidthimage from '../components/FullWidthimage';
 import TopMenu from '../components/TopMenu';
 import FooterMenu from '../components/FooterMenu';
 import IslandSnow from '../pages/IslandSnow';
